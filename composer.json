@@ -1,0 +1,26 @@
+{
+    "name": "marmelab/rest-admin-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony SonataRestAdminBundle",
+    "keywords": ["CRUD", "Sonata", "REST", "Admin Generator"],
+    "homepage": "http://www.marmelab.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Emmanuel QUENTIN",
+            "email": "emmanuel@marmelab.org"
+        }
+    ],
+    "require": {
+        "symfony/symfony": "~2.3",
+        "sonata-project/admin-bundle": "2.2.*@dev",
+        "pagerfanta/pagerfanta": "1.0.*"
+    },
+    "require-dev": {
+        "doctrine/orm": "*",
+    },
+    "autoload": {
+        "psr-0": { "Marmelab\\RestAdmin": "" }
+    },
+    "target-dir": "Marmelab/RestAdminBundle"
+}
